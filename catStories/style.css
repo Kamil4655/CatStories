@@ -1,0 +1,1175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sectionOne {
+    width: 100%;
+    height: 120vh;
+    background-image: url("img/mainCat.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.scOneTxtDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
+
+.sectionOne h5 {
+    font-size: 20px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.sectionOne h1 {
+    font-size: 72px;
+    font-family: Poppins;
+    width: 582px;
+    text-align: end;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sectionTwo {
+    width: 100%;
+    height: auto;
+    background-color: #ded9d7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 60px;
+}
+
+.sectionTwo h2 {
+    font-size: 58px;
+    font-family: Poppins;
+    line-height: 1.1;
+}
+
+.sectionTwo p {
+    font-size: 20px;
+    font-family: Poppins;
+    width: 778px;
+    text-align: center;
+}
+
+.sectionTwo a {
+    color: black;
+}
+
+.sectionTwo .scTwoCardsDiv {
+    width: 90%;
+    height: 138vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.scTwoCardsDiv .scTwoCardOne {
+    width: 363px;
+    height: 634.4px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    position: relative;
+    top: 30px;
+
+}
+
+.scTwoCardsDiv .scTwoCardOne img {
+    width: 303.06px;
+    height: 214px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.scTwoCardsDiv .scTwoCardOne h4 {
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.scTwoCardsDiv .scTwoCardOne p {
+    font-size: 16px;
+    font-family: Poppins;
+    width: 303.6px;
+    text-align: center;
+}
+
+.scTwoCardsDiv .scTwoCardOne a {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.scTwoCardOne:nth-of-type(2) {
+    position: relative;
+    top: 200px;
+}
+
+.scTwoCardOne:nth-of-type(3) {
+    position: relative;
+    top: 350px;
+}
+
+.scTwoBgDiv {
+    width: 100%;
+    height: 328px;
+    background-color: #59504c;
+}
+
+.indexDiv {
+    width: 100%;
+    height: 138vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scTwoBgDiv {
+    position: absolute;
+    z-index: 1;
+}
+
+.scTwoCardsDiv {
+    z-index: 2;
+    position: absolute;
+}
+
+.sectionThree {
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    background-color: #f7f5f5;
+
+}
+
+.sectionThree .scThreeCards {
+    width: 100%;
+    height: 1082px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sectionThree .topdivColor {
+    width: 100%;
+    height: 351px;
+    background-color: #ded9d7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sectionThree .scThreeCards img {
+    width: 844px;
+    height: 563px;
+    border-radius: 20px;
+    object-fit: contain;
+    position: relative;
+    z-index: 100000000000000;
+}
+
+.scThreeTwoCards {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+    flex-wrap: wrap;
+    bottom: 100px;
+    z-index: 10000000000000000000;
+
+}
+
+.scThreeTwoCards .scThreeCardOne {
+    width: 442px;
+    height: 352.4px;
+    background-color: #332c29;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    bottom: 110px;
+
+
+}
+
+.scThreeTwoCards .scThreeCardTwo {
+    width: 598px;
+    height: 426px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0px 0px 10px gray;
+
+
+}
+
+.scThreeTwoCards .scThreeCardOne h4 {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.scThreeTwoCards .scThreeCardOne h2 {
+    font-size: 60px;
+    font-family: Poppins;
+    line-height: 1.1;
+    color: white;
+    width: 382px;
+}
+
+.scThreeTwoCards .scThreeCardOne p {
+    font-size: 16px;
+    font-family: Poppins;
+    color: white;
+}
+
+.scThreeTwoCards .scThreeCardTwo button {
+    width: 164.98px;
+    height: 46.4px;
+    background-color: #332c29;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 20px;
+}
+
+.scThreeCardTwo h3 {
+    font-size: 30px;
+    font-family: Poppins;
+
+}
+
+.scThreeCardTwo li {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 488px;
+    line-height: 2;
+}
+
+.sectionFour {
+    width: 100%;
+    height: 150vh;
+    background-color: #59504c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.scFourTopColor {
+    width: 100%;
+    height: 447px;
+    background-color: #f7f5f5;
+    ;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.sectionFour .scFourImgMainDiv {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+
+
+}
+
+.sectionFour .scFourImgMainDiv .imgMainBoxOne {
+    width: 429.64px;
+    height: 534.11px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sectionFour .scFourImgMainDiv .imgMainBoxTwo {
+    width: 429.64px;
+    height: 534.11px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sectionFour .scFourImgMainDiv .imgMainBoxOne .imgOne {
+    width: 429.64px;
+    height: 534.11px;
+    border-radius: 15px;
+}
+
+.sectionFour .scFourImgMainDiv .imgMainBoxOne .imgTwo {
+    width: 429.64px;
+    height: 534.11px;
+    border-radius: 15px;
+
+}
+
+.sectionFour .scFourImgMainDiv .imgMainBoxTwo .imgThree {
+    width: 429.64px;
+    height: 534.11px;
+    border-radius: 15px;
+
+}
+
+.sectionFour .scFourImgMainDiv .imgMainBoxTwo .imgFour {
+    width: 429.64px;
+    height: 534.11px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 25px;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.imgOne img {
+    width: 429.64px;
+    height: 534.11px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.imgTwo img {
+    width: 429.64px;
+    height: 534.11px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.imgThree img {
+    width: 429.64px;
+    height: 534.11px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.imgFour h3 {
+    font-size: 30px;
+    font-family: Poppins;
+}
+
+.imgFour p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    width: 377.7px;
+}
+
+.imgFour button {
+    width: 164.98px;
+    height: 46.4px;
+    background-color: #332c29;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.sectionFive {
+    width: 100%;
+    height: 100vh;
+    background-color: #59504c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.scFiveImg {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 10px solid #c6beba;
+}
+
+.scFiveImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sectionFive h2 {
+    font-size: 48px;
+    font-family: Poppins;
+    color: white;
+    width: 689px;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.sectionFive form {
+    display: flex;
+    gap: 10px;
+}
+
+.sectionFive .scFiveEmail {
+    width: 359.49px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.sectionFive .scFiveSubmit {
+    width: 150.51px;
+    height: 48.8px;
+    border-radius: 50px;
+    border: none;
+    background-color: #837974;
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.sectionFive p {
+    font-size: 14px;
+    font-family: Poppins;
+    color: white;
+    width: 589px;
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.sectionSix {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #f7f5f5;
+
+}
+
+.scSixTopColor {
+    width: 100%;
+    height: 850px;
+    background-color: #59504c;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.scSixMainDiv {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.sectionSix img {
+    width: 670px;
+    height: 1071px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.scSixCardsDiv {
+    width: 581px;
+    height: 841.6px;
+    display: flex;
+    position: relative;
+    right: 120px;
+    top: 300px;
+
+}
+
+.scSixCardsDiv .scSixCardBoxOne {
+    width: 290.5px;
+    height: 841px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.scSixCardsDiv .scSixCardBoxTwo {
+    width: 290.5px;
+    height: 841px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.scSixCardOne {
+    width: 278px;
+    height: 267.2px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    padding-left: 30px;
+    box-shadow: 0px 0px 3px gray;
+
+}
+
+.scSixCardOne h4 {
+    font-size: 18px;
+    font-family: Poppins;
+    color: #59504c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.scSixCardOne p {
+    font-size: 16px;
+    font-family: Poppins;
+    width: 218px;
+}
+
+.scSixCardOne a {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.sectionSeven {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f5f5;
+}
+
+.scSevenMainDiv {
+    width: 1271px;
+    height: 638px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.scSevenMainDiv .scSevenTxtDiv {
+    width: 570px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.scSevenMainDiv .scSevenImgDiv {
+    width: 570px;
+    height: 518px;
+}
+
+.scSevenTxtDiv h3 {
+    font-size: 30px;
+    font-family: Poppins;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.scSevenTxtDiv p {
+    font-size: 16px;
+    font-family: Poppins;
+    width: 510px;
+    line-height: 1.8;
+}
+
+.scSevenTxtDiv button {
+    width: 164.98px;
+    height: 46.4px;
+    background-color: #332c29;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.scSevenImgCircle {
+    width: 378px;
+    height: 378px;
+    border-radius: 50%;
+}
+
+.scSevenImgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.scSevenImgCircle img {
+    width: 378px;
+    height: 378px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+}
+
+.scSevenShadowCircle {
+    width: 398px;
+    height: 398px;
+    border-radius: 50%;
+    background-color: #DED9D7;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.sectionEight {
+    width: 100%;
+    height: 539px;
+    background-color: #f7f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.scEightMainDiv {
+    width: 965px;
+    height: 377px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 3px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    position: absolute;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+.scEightTxtBox {
+    width: 332px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+.scEightTxtBox h3 {
+    font-size: 30px;
+    font-family: Poppins;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.scEightTxtBox p {
+    font-size: 20px;
+    font-family: Poppins;
+    color: #808080;
+    width: 322px;
+    line-height: 2;
+}
+
+.scEightFormBox {
+    width: 470px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsDiv ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.iconsDiv ul li i {
+    font-size: 22px;
+    color: #59504c;
+}
+
+.scEightFormBox form {
+    display: flex;
+    flex-direction: column;
+}
+
+.scEightFormBox form label {
+    font-style: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.labelFirstBox input {
+    width: 464px;
+    height: 46.4px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    padding: 10px 20px;
+    background: none;
+
+}
+
+.labelSecondBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.labelSecondBox .labelScndChildOne {
+    width: 232px;
+    /* height: 46.4px; */
+
+}
+
+.labelSecondBox .labelScndChildTwo {
+    width: 232px;
+    /* height: 46.4px; */
+}
+
+.labelScndChildOne input {
+    width: 232px;
+    height: 46.4px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    padding: 10px 20px;
+    background: none;
+}
+
+.labelScndChildTwo input {
+    width: 232px;
+    height: 46.4px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    padding: 10px 20px;
+    background: none;
+}
+
+.sectionEight button {
+    width: 464px;
+    height: 46.4px;
+    background-color: #59504c;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    top: 40px;
+}
+
+.scEightTopColor {
+    width: 100%;
+    height: 296px;
+    background-color: #59504c;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+@media(max-width:768px) {
+    .sectionOne h1 {
+        font-size: 38px;
+        font-family: Poppins;
+        width: fit-content;
+        text-align: end;
+        color: white;
+        letter-spacing: 2px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .sectionOne {
+        width: 100%;
+        height: 120vh;
+        background-image: url(img/mainCat.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-position: left;
+    }
+
+    .sectionThree .scThreeCards {
+        height: fit-content;
+        height: fit-content;
+    }
+
+    .scThreeTwoCards {
+        position: static;
+    }
+
+    .sectionThree {
+        height: fit-content;
+        position: static;
+    }
+
+    .sectionThree .scThreeCards img {
+        height: fit-content;
+        position: static;
+    }
+
+    .scFourTopColor {
+        width: 100%;
+        height: fit-content;
+        background-color: #f7f5f5;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .imgFour p {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        width: fit-content;
+    }
+
+    .sectionFour .scFourImgMainDiv .imgMainBoxTwo .imgFour {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 30px;
+        padding-left: 25px;
+        box-shadow: 0px 0px 10px gray;
+
+    }
+
+    .sectionFour .scFourImgMainDiv {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: absolute;
+        z-index: 2;
+        flex-wrap: wrap;
+
+    }
+
+    .imgOne img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    .imgTwo img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    .imgThree img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+
+
+    .sectionFive h2 {
+        font-size: 28px;
+        font-family: Poppins;
+        color: white;
+        width: fit-content;
+        text-align: center;
+        line-height: 1.1;
+        font-weight: 700;
+    }
+
+    .sectionFive p {
+        font-size: 11px;
+        font-family: Poppins;
+        color: white;
+        width: fit-content;
+        text-align: center;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+
+    .sectionFive .scFiveSubmit {
+        width: 93.51px;
+        height: 41.8px;
+        border-radius: 50px;
+        border: none;
+        background-color: #837974;
+        color: white;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .sectionFive .scFiveEmail {
+        width: fit-content;
+        height: 50px;
+        padding: 20px;
+        border-radius: 50px;
+        border: none;
+    }
+
+    .scTwoCardsDiv {
+        position: static;
+    }
+
+    .sectionTwo p {
+        width: fit-content;
+    }
+
+    .scTwoCardOne:nth-of-type(1) {
+        position: static;
+        top: 350px;
+    }
+
+    .scTwoCardOne:nth-of-type(2) {
+        position: static;
+        top: 350px;
+    }
+
+    .scTwoCardOne:nth-of-type(3) {
+        position: static;
+        top: 350px;
+    }
+
+    .indexDiv {
+        height: fit-content;
+    }
+
+    .sectionTwo .scTwoCardsDiv {
+        height: fit-content;
+    }
+
+    .sectionTwo h2 {
+        font-size: 36px;
+        font-family: Poppins;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .sectionThree .scThreeCards img {
+        width: 100%;
+    }
+
+    .scThreeTwoCards .scThreeCardTwo {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .scThreeCardTwo li {
+        width: 100%;
+    }
+
+    ol {
+        width: fit-content;
+    }
+
+    .scThreeTwoCards {
+        height: fit-content;
+        gap: 30px;
+    }
+
+    .scThreeTwoCards .scThreeCardOne {
+        width: 100%;
+        position: static;
+        height: fit-content;
+    }
+
+    .sectionThree .scThreeCards {
+        gap: 30px;
+    }
+
+    .sectionThree .topdivColor {
+        display: none;
+    }
+
+    .scThreeTwoCards .scThreeCardTwo {
+        width: 598px;
+        height: fit-content;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        box-shadow: 0px 0px 10px gray;
+    }
+
+    .scThreeTwoCards .scThreeCardOne h2 {
+        font-size: 54px;
+        font-family: Poppins;
+        line-height: 1.1;
+        color: white;
+        width: fit-content;
+    }
+
+    .scSevenMainDiv {
+        width: 100%;
+        height: 462px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .scSevenTxtDiv p {
+        font-size: 16px;
+        font-family: Poppins;
+        width: fit-content;
+        line-height: 1.8;
+    }
+
+    .scSevenShadowCircle {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: #DED9D7;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+    }
+
+    .scSevenImgCircle img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+    }
+
+    .scSevenMainDiv .scSevenImgDiv {
+        width: 336px;
+        height: fit-content;
+    }
+
+    .scSevenImgCircle {
+        width: 377px;
+        height: 320px;
+        border-radius: 50%;
+    }
+
+
+    .scEightMainDiv {
+        width: fit-content;
+        height: 377px;
+        border-radius: 30px;
+        background-color: white;
+        box-shadow: 0px 0px 3px gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        position: absolute;
+        z-index: 2;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:550px) {
+    .sectionOne h5 {
+        font-size: 15px;
+        font-family: Poppins;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 300;
+        letter-spacing: 4px;
+    }
+
+    .sectionTwo p {
+        width: fit-content;
+        font-size: 13px;
+    }
+
+} 
